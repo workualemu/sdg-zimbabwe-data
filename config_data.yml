@@ -62,9 +62,7 @@ src_dir: ''
 
 inputs: 
   - class: InputSdmxMl_UnitedNationsApi 
-    reference_area: 231 
-    dimension_query: 
-      REPORTING_TYPE: N 
+    reference_area: 716
 
 # Translations
 # ------------
