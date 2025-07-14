@@ -40,7 +40,7 @@ src_dir: ''
 # The defaults below show what is used when this is omitted.
 inputs: 
   - class: InputSdmxMl_UnitedNationsApi 
-    reference_area: 231 
+    reference_area: 716 
 
 # Translations
 # ------------
