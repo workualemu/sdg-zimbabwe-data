@@ -14,7 +14,7 @@ languages:
 # Destination directory
 # ---------------------
 # This identifies a directory to hold the "built" files. The default is '_site'.
-site_dir: _site
+site_dir: _build
 
 # Schema file
 # -----------
