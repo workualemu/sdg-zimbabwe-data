@@ -16,6 +16,7 @@ languages:
 # This identifies a directory to hold the "built" files. The default is '_site'.
 site_dir: _build
 
+constrain_data: true
 # Schema file
 # -----------
 # This identifies a file containing the schema (possible fields) for metadata.
