@@ -17,6 +17,7 @@ languages:
 site_dir: _build
 
 constrain_data: true
+constrain_meta: true
 # Schema file
 # -----------
 # This identifies a file containing the schema (possible fields) for metadata.
