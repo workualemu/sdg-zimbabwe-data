@@ -16,6 +16,8 @@ languages:
 # This identifies a directory to hold the "built" files. The default is '_site'.
 site_dir: _build
 
+constrain_data: true
+constrain_meta: true
 # Schema file
 # -----------
 # This identifies a file containing the schema (possible fields) for metadata.
@@ -42,11 +44,11 @@ inputs:
   # - class: InputCsvData
   #   # This describes the data files, relative to the "src_dir" indicated above.
   #   path_pattern: data/*-*.csv
-  # - class: InputSdmxMl_UnitedNationsApi 
-  #   reference_area: 716
-  - class: InputSdmxMl_Structure
-    source: https://zw.sdmx.afdb.org/ns-ws/rest/data/ZW1,DF_ZW_SDG,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD
-    dsd: https://zw.sdmx.afdb.org/ns-ws/rest/datastructure/ZW1/SDG/1.1/?detail=Full&references=Descendants
+  - class: InputSdmxMl_UnitedNationsApi 
+    reference_area: 716
+  # - class: InputSdmxMl_Structure
+  #   source: https://zw.sdmx.afdb.org/ns-ws/rest/data/ZW1,DF_ZW_SDG,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD
+  #   dsd: https://zw.sdmx.afdb.org/ns-ws/rest/datastructure/ZW1/SDG/1.1/?detail=Full&references=Descendants
     dimension_map:
       REF_AREA|ZW: ''
     drop_dimensions:
